@@ -3,14 +3,23 @@ html {
 }
 
 /* NAV MENU */
+
+.logo {
+    width: 35px;
+    height: 45px;
+    padding-bottom: 130px;
+    position: relative;
+    right: 14px;
+     
+}
 nav {
     height: 100%;
-    width: 60px;
+    width: 50px;
     position: fixed;
     z-index: 0;
     top: 0;
     left: 0;
-    background-color: #878787;
+    background-color: #2e2e2e;
     overflow-x: hidden;
     padding-top: 5-px;
 }
@@ -19,7 +28,7 @@ nav a .button {
     width: 115px;
     height: 25px;
     background: #4E9CAF;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     border-radius: 5px;
     color: white;
@@ -37,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #262626;
+    color: goldenrod;
 }
 
 nav a:nth-child(5) {
@@ -102,24 +111,7 @@ main {
 
 /* PAGES - PROJECTS */
 
-ul {
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    line-height: 2;
-    
-}
-li {
-    padding-bottom: 5px;
-    padding-top: 10px;
-}
 
-.logo {
-    width: 40px;
-    height: 50px;
-    margin: 10px;
-    padding-bottom: 90px;
-    
-}
 h1 {
     font-family: 'Gruppo', cursive;
     color: black;
@@ -154,51 +146,16 @@ h1 {
     height: 100%;
     margin-left: 70px;
     margin-top: 70px;
-    padding-top: 20px;
+    padding-top: 1px;
 }
 
 .program img {
-    max-width: 500px;
+    max-width: 850px;
+    padding: auto 0;
 }
-
-/*span {
-    padding: 0 auto;
-    margin-left: 20px;
-    width:100%;
-    height: 50%;
-}*/
-
-/*.frontend {
-    background-color: #363636;
-    color: white;
-}
-
-.backend {
-    background-color: #6e6e6e;
-    color: white;
-}
-.others {
-    background-color: #c2c2c2;
-    color: white;
-}
-
-#program {
-    display: flex;
-}*/
-
-/*
-h2 {
-    position: relative;
-    right: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    text-decoration: underline;
-    
-}
-*/
 
 /*SKILLS (LANGUAGE)*/ 
 .language img {
-    max-width: 550px;
+    max-width: 500px;
     
 }
