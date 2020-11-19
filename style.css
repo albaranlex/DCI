@@ -157,14 +157,18 @@ h1 {
     padding-top: 20px;
 }
 
-span {
+.program img {
+    max-width: 500px;
+}
+
+/*span {
     padding: 0 auto;
     margin-left: 20px;
     width:100%;
     height: 50%;
-}
+}*/
 
-.frontend {
+/*.frontend {
     background-color: #363636;
     color: white;
 }
@@ -180,8 +184,9 @@ span {
 
 #program {
     display: flex;
-}
+}*/
 
+/*
 h2 {
     position: relative;
     right: 30px;
@@ -190,6 +195,7 @@ h2 {
     text-decoration: underline;
     
 }
+*/
 
 /*SKILLS (LANGUAGE)*/ 
 .language img {
