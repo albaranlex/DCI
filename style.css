@@ -1,0 +1,198 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAV MENU */
+nav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #878787;
+    overflow-x: hidden;
+    padding-top: 5-px;
+}
+nav a .button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+nav a {
+    width: 5px;
+    margin: 8px;
+    padding: 6px 8px 6px 10px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+nav a:hover {
+    color: #262626;
+}
+
+nav a:nth-child(5) {
+    padding-top: 270px;
+}
+
+h3 {
+    width: 60px;
+    height: 10px;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 100px;
+    margin-left: 13px;
+
+}
+
+/* TEXT CONTAINER*/
+
+main {
+    background-image: url(img/bg1.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    padding: 250px;
+}
+.howdy {
+    font-family: 'Roboto', sans-seri;
+    font-weight: bold;
+    font-size: 50px;
+    color: #1a1a1a;
+}
+
+.container p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.container button {
+    background: none;
+    color: white;
+    width: 130px;
+    height: 30px;
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.container button:hover {
+    background: none;
+    color: goldenrod;
+    border-color: goldenrod;  
+}
+
+
+/* PAGES - PROJECTS */
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 2;
+    
+}
+li {
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 50px;
+    margin: 10px;
+    padding-bottom: 90px;
+    
+}
+h1 {
+    font-family: 'Gruppo', cursive;
+    color: black;
+    font-size: 20px;
+}
+#projects {
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 20px;
+    margin-left: 40px;
+}
+
+#projects img {
+    width: 250px;
+    height: 170px;
+    padding: 15px;
+    filter:grayscale()
+}
+
+#projects img:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+/*SKILLS (PROGRAMMING)*/  
+#skills {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    margin-left: 70px;
+    margin-top: 70px;
+    padding-top: 20px;
+}
+
+span {
+    padding: 0 auto;
+    margin-left: 20px;
+    width:100%;
+    height: 50%;
+}
+
+.frontend {
+    background-color: #363636;
+    color: white;
+}
+
+.backend {
+    background-color: #6e6e6e;
+    color: white;
+}
+.others {
+    background-color: #c2c2c2;
+    color: white;
+}
+
+#program {
+    display: flex;
+}
+
+h2 {
+    position: relative;
+    right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
+
+/*SKILLS (LANGUAGE)*/ 
+.language img {
+    max-width: 550px;
+    
+}
